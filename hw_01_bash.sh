@@ -12,7 +12,7 @@
 username=$1 
 directory=$2
 
-if [ -z $username ] && [ -z $directory ];
+if [ -z $username ] | [ -z $directory ];
 then
     echo 'Please provide two arguments: user & directory'
     exit
